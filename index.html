@@ -32,7 +32,7 @@ padding-right: 20px;
 					ylu125 at jhu.edu <br />
 					Ph.D. student |  CLSP <br />
 					Johns Hopkins University <br />
-					Speech Processing | Machine Learning </h1>
+					Speech and Language Processing | Machine Learning </h1>
 				</div>
 			</header>
 
@@ -51,8 +51,8 @@ padding-right: 20px;
  						</ul>
 							<h2> NEWS </h2>
 						<ul>
-							<li> Our recent work, "CA-SSLR: Condition-Aware Self-Supervised Learning Representation for Generalized Speech Processing" is accepted by <strong>NeurIPS 2024</strong>! </li>
-							<li> My internship project, "Mutual Reinforcement of LLM Dialogue Synthesis and Summarization Capabilities for Few-Shot Dialogue Summarization" is accepted by findings of <strong> NAACL 2025</strong>! </li>
+							<li> My internship project, "Mutual Reinforcement of LLM Dialogue Synthesis and Summarization Capabilities for Few-Shot Dialogue Summarization" is accepted by Findings of <strong> NAACL 2025</strong>! </li>
+							<li> Our recent work with Amazon, "CA-SSLR: Condition-Aware Self-Supervised Learning Representation for Generalized Speech Processing" is accepted by <strong>NeurIPS 2024</strong>! </li>
 						</ul> 
 					</section>
 
@@ -77,10 +77,50 @@ padding-right: 20px;
 					<section id="two">
 						<h2>Recent Work</h2>
 						<div class="row">
+							
 							<article class="col-6 col-12-xsmall work-item">
-<!-- 								<a href="https://arxiv.org/abs/2207.09514" target="_blank" rel="noopener noreferrer"> -->
+ 								<a href="https://arxiv.org/pdf/2502.17328" target="_blank" rel="noopener noreferrer">
+									<img src="images/MRDS.png"  width="100%" alt="" /></a>
+								<h3>Mutual Reinforcement of LLM Dialogue Synthesis and Summarization Capabilities for Few-Shot Dialogue Summarization (Findings of <strong>NAACL 2025</strong>) </h3>
+								<p style="font-size:16px"> <strong>Yen-Ju Lu</strong>,Ting-Yao Hu, Hema Swetha Koppula, Hadi Pouransari, Jen-Hao Rick Chang, Yin Xia, Xiang Kong, Qi Zhu, Simon Wang, Oncel Tuzel, Raviteja Vemulapalli</p>
+								<p> In this work, we propose Mutual Reinforcing Data Synthesis (MRDS) within LLMs to improve few-shot dialogue summarization task. Unlike prior methods that require external knowledge, we mutually reinforce the LLM\'s dialogue synthesis and summarization capabilities, allowing them to complement each other during training and enhance overall performances. The dialogue synthesis capability is enhanced by directed preference optimization with preference scoring from summarization capability. The summarization capability is enhanced by the additional high quality dialogue-summary paired data produced by the dialogue synthesis capability. By leveraging the proposed MRDS mechanism, we elicit the internal knowledge of LLM in the format of synthetic data, and use it to augment the few-shot real training dataset. </p>
+								<ul class="actions">
+									<li><a href="https://arxiv.org/pdf/2502.17328" class="button">Continue Reading</a></li>
+								</ul>
+							
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+ 								<a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/59a9cc95f046e9125d8816ef971873e7-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer">
+									<img src="images/CA-SSLR.png"  width="100%" alt="" /></a>
+								<h3>CA-SSLR: Condition-aware self-supervised learning representation for generalized speech processing (<strong>NeurIPS 2024</strong>) </h3>
+								<p style="font-size:16px"> <strong>Yen-Ju Lu</strong>, Jing Liu, Thomas Thebaud, Laureano Moro-Velazquez, Ariya Rastrow, Najim Dehak, Jesus Villalba</p>
+								<p> We introduce Condition-Aware Self-Supervised Learning Representation (CA-SSLR), a generalist conditioning model broadly applicable to various speech-processing tasks. Compared to standard fine-tuning methods that optimize for downstream models, CA-SSLR integrates language and speaker embeddings from earlier layers, making the SSL model aware of the current language and speaker context. This approach reduces the reliance on the input audio features while preserving the integrity of the base SSLR. CA-SSLR improves the model’s capabilities and demonstrates its generality on unseen tasks with minimal task-specific tuning. </p>
+								<ul class="actions">
+									<li><a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/59a9cc95f046e9125d8816ef971873e7-Paper-Conference.pdf" class="button">Continue Reading</a></li>
+								</ul>
+							
+							</article>
+
+							
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164201" target="_blank" rel="noopener noreferrer"><img src="images/TASLP.png"  width="100%" alt="" /></a>
+								<h3> Improving Speech Enhancement Performance by Leveraging Contextual Broad Phonetic Class Information  <br> (<strong> TASLP 2023 </strong>) </h3>
+								<p style="font-size:16px"> <strong>Yen-Ju Lu</strong>, Chia-Yu Chang, Cheng Yu,  Ching-Feng Liu,  Jeih-weih Hung, Shinji Watanabe, Yu Tsao </p>
+								<p> In this article, we explore the contextual information of articulatory attributes as additional information to further benefit SE. More specifically, we propose to improve the SE performance by leveraging losses from an end-to-end automatic speech recognition (E2E-ASR) model that predicts the sequence of broad phonetic classes (BPCs). We also developed multi-objective training with ASR and perceptual losses to train the SE system based on a BPC-based E2E-ASR.  </p>
+								<ul class="actions">
+									<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164201" class="button">Continue Reading</a></li>
+								</ul>
+							</article>
+							
+
+
+
+							
+							<article class="col-6 col-12-xsmall work-item">
+ 								<a href="https://arxiv.org/abs/2207.09514" target="_blank" rel="noopener noreferrer">
 									<img src="images/ESPnet-SE++.png"  width="100%" alt="" /></a>
-								<h3> ESPnet-SE++: Speech Enhancement for Robust Speech Recognition, Translation, and Understanding. (<strong>To appear in Interspeech 2022</strong>) </h3>
+								<h3> ESPnet-SE++: Speech Enhancement for Robust Speech Recognition, Translation, and Understanding. (<strong>Interspeech 2022</strong>) </h3>
 								<p style="font-size:16px"> <strong>Yen-Ju Lu</strong>, Xuankai Chang, Chenda Li, Wangyou Zhang, Samuele Cornell, Zhaoheng Ni, Yoshiki Masuyama, Brian Yan, Robin Scheibler, Zhong-Qiu Wang, Yu Tsao, Yanmin Qian, Shinji Watanabe</p>
 								<p> This paper presents recent progress on integrating speech separation and enhancement (SSE) into the ESPnet toolkit. Compared with the previous ESPnet-SE work, numerous features have been added, including recent state-of-the-art speech enhancement models with their respective training and evaluation recipes. Importantly, a new interface has been designed to flexibly combine speech enhancement front-ends with other tasks, including automatic speech recognition (ASR), speech translation (ST), and spoken language understanding (SLU). To showcase such integration, we performed experiments on carefully designed synthetic datasets for noisy-reverberant multi-channel ST and SLU tasks, which can be used as benchmark corpora for future research. In addition to these new tasks, we also use CHiME-4 and WSJ0-2Mix to benchmark multi- and single-channel SE approaches. Results show that the integration of SE front-ends with back-end tasks is a promising research direction even for tasks besides ASR, especially in the multi-channel scenario. The code is available online at this https URL. The multi-channel ST and SLU datasets, which are another contribution of this work, are released on HuggingFace. </p>
 								<ul class="actions">
@@ -90,7 +130,7 @@ padding-right: 20px;
 							</article>
 						
 							<article class="col-6 col-12-xsmall work-item">
-<!-- 								<a href="https://ieeexplore.ieee.org/abstract/document/9747146/" target="_blank" rel="noopener noreferrer"> -->
+ 								<a href="https://ieeexplore.ieee.org/abstract/document/9747146/" target="_blank" rel="noopener noreferrer">
 									<img src="images/iNeuBe.png"  width="100%" alt="" /></a>
 								<h3> Towards Low-distortion Multi-channel Speech Enhancement: The ESPNet-SE Submission to The L3DAS22 Challenge. (<strong>ICASSP 2022</strong>) </h3>
 								<p style="font-size:16px"> <strong>Yen-Ju Lu</strong>, Samuele Cornell, Xuankai Chang, Wangyou Zhang, Chenda Li, Zhaoheng Ni, Zhong-Qiu Wang, Shinji Watanabe</p>
@@ -132,17 +172,6 @@ padding-right: 20px;
 									<li><a href="https://arxiv.org/abs/2110.04590" class="button">Continue Reading</a></li>
 								</ul>
 
-							</article>
-							
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://arxiv.org/abs/2011.07442" target="_blank" rel="noopener noreferrer"><img src="images/E2ESE.png"  width="100%" alt="" /></a>
-								<h3> Speech Enhancement Guided by Contextual Articulatory Information  <br> (<strong> Ready to be submitted to TASLP </strong>) </h3>
-								<p style="font-size:16px"> <strong>Yen-Ju Lu</strong>, Chia-Yu Chang, Cheng Yu, Jeih-weih Hung, Shinji Watanabe, Yu Tsao </p>
-								<p> In this study, we propose an SE system that improves its performance through optimizing the contextual articulatory information in enhanced speech for both English and Mandarin. We optimize the contextual articulatory information through joint-train the SE model with an end-to-end automatic speech recognition (E2E ASR) model, predicting the sequence of broad phone classes (BPC) instead of the word sequences. Meanwhile, two training strategies are developed to train the SE system based on the BPC-based ASR: multitask-learning and deep-feature training strategies. </p>
-								<ul class="actions">
-									<li><a href="https://arxiv.org/abs/2011.07442" class="button">Continue Reading</a></li>
-								</ul>
 							</article>
 							
 							<article class="col-6 col-12-xsmall work-item">
